@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Онлайн-магазин подболотники</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="грибы, онлайн-магазин, Подболотники, аксессуары, одежда, рецепты, мемы, сообщество,
+    грибные товары, увлечение грибами, грибные деликатесы, грибные статьи">
+    <meta name="description" content="Онлайн-магазин Подболотники, посвящённый грибам и всему, что с ними связано!
+    Откройте для себя разнообразные товары: от стильной одежды и милых аксессуаров до вкусных грибных delicacies.
+    Наслаждайтесь мемами, статьями и рецептами, создавая яркие моменты из грибного мира. ">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <script src="../js/loadTime.js" defer></script>
+    <link rel="stylesheet" href="../css/outlines.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__logo-navigation">
+        <div class="header__logotype">
+            <a href="../index.html">
+                <img class="header__logo-img" src="../images/logotype.png" alt="Логотип компании">
+            </a>
+        </div>
+        <nav class="header__navigation">
+            <div class="header__menu-toggle" id="menu-toggle">
+                <p class="header__menu-toggle_text">Меню</p>
+                <p class="header__menu-toggle_button">></p>
+            </div> <!-- для переключения -->
+            <ul class="header__menu" id="menu">
+                <li><a class="header__menu-item" href="blog.html">Блог</a></li>
+                <li><a class="header__menu-item" href="#">Магазин</a></li>
+                <li><a class="header__menu-item" href="delivery.html">Оплата и доставка</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__search-and-actions">
+        <img class="header__basket-icon" src="../images/icons/basket-fill.svg" alt="Иконка корзины">
+        <a href="#" class="header__authorization"><p>Вход</p></a>
+    </div>
+    <script src="../js/menu.js" defer></script>
+</header>
+
+<main>
+
+    <section class="categories">
+        <div class="category_filter" data-category="all">
+            <img class="category_image" alt="Фоновое изображение для категории Все" src="../images/grib-1.jpg">
+            <p>Все</p>
+        </div>
+        <div class="category_filter" data-category="clothing">
+            <img class="category_image" alt="Фоновое изображение для категории Одежда" src="../images/grib-2_2.png">
+            <p>Одежда</p>
+        </div>
+        <div class="category_filter" data-category="accessories">
+            <img class="category_image" alt="Фоновое изображение для категории Аксессуары"
+                 src="https://avatars.mds.yandex.net/i?id=0240dfcd86e61dcdc03a4a618c6ffbf8d896bd1f-12523274-images-thumbs&n=13">
+            <p>Аксессуары</p>
+        </div>
+        <div class="category_filter" data-category="food">
+            <img class="category_image" alt="Фоновое изображение для категории Еда" src="../images/grib-10.jpg">
+            <p>Еда</p>
+        </div>
+        <div class="category_filter" data-category="house">
+            <img class="category_image" alt="Фоновое изображение для категории Товары для дома"
+                 src="https://avatars.mds.yandex.net/i?id=2119de68ebe7ba2bd2599c734571696369aa93c1-7761267-images-thumbs&n=13">
+            <p>Товары для дома</p>
+        </div>
+        <div class="category_filter" data-category="electronics">
+            <img class="category_image" alt="Фоновое изображение для категории Электроника"
+                 src="https://avatars.mds.yandex.net/i?id=6d7c80abc36da2231184e292355aaac07cda19d6-7593536-images-thumbs&n=13">
+            <p>Электроника</p>
+        </div>
+    </section>
+
+
+
+    <section class="shop">
+        <h2 class="shop__title">Магазин</h2>
+
+        <div class="shop__cards-list">
+            <!-- Одежда -->
+            <article class="shop__card" data-category="clothing">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="../images/grib-2_2.png" alt="Товар из магазина 2">
+                    <h5 class="shop__card-title">Мужская оверсайз-футболка “Подболотники”</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">5000 ₽</p>
+                        <p class="shop__card-price_old">8000 ₽</p>
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="shop_1.html" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="electronics">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="https://cdn1.ozone.ru/s3/multimedia-n/6370728563.jpg" alt="Товар из магазина 102">
+                    <h5 class="shop__card-title">Милая лампа-ночник</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">3000 ₽</p>
+<!--                        <p class="shop__card-price_old">8000 ₽</p>-->
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="clothing">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="../images/grib-14.png" alt="Товар из магазина 2">
+                    <h5 class="shop__card-title">Мужская футболка “Шайлушай”</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">4500 ₽</p>
+                        <p class="shop__card-price_old">7000 ₽</p>
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="accessories">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="https://i.pinimg.com/736x/bd/5a/cd/bd5acd2482dfdc4c922ebba5fdbced23--pottery-making-diy-clay.jpg"
+                         alt="Товар из магазина 100">
+                    <h5 class="shop__card-title">Подставка под аксессуары </h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">1500 ₽</p>
+                        <p class="shop__card-price_old">2000 ₽</p>
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="food">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="../images/grib-4.png" alt="Товар из магазина 4">
+                    <h5 class="shop__card-title">Баночка вкуснейших грибочков</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">1000 ₽</p>
+                        <!--                        <p class="shop__card-price_old">1200 ₽</p>-->
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="house">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="../images/grib-11.jpg" alt="Товар из магазина 11">
+                    <h5 class="shop__card-title">Ёлочная игрушка</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">1000 ₽</p>
+                        <p class="shop__card-price_old">2000 ₽</p>
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="house">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="../images/grib-1.jpg" alt="Товар из магазина 1">
+                    <h5 class="shop__card-title">Керамическая статуэтка</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">15000 ₽</p>
+                        <p class="shop__card-price_old">20000 ₽</p>
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="food">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="../images/grib-12.jpg" alt="Товар из магазина 12">
+                    <h5 class="shop__card-title">Замороженные бутерброды</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">1000 ₽</p>
+                        <p class="shop__card-price_old">1200 ₽</p>
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+            <article class="shop__card" data-category="house">
+                <div class="shop__card-description">
+                    <img class="shop__card-image" src="../images/grib-13.jpg" alt="Товар из магазина 13">
+                    <h5 class="shop__card-title">Керамический гриииб из химической посуды</h5>
+                    <div class="shop__card-price">
+                        <p class="shop__card-price_now">700 ₽</p>
+                    </div>
+                </div>
+                <div class="shop__card-button">
+                    <a href="#" class="shop__card-button_more">Подробнее</a>
+                    <a href="#" class="shop__card-button_basket">В корзину</a>
+                </div>
+            </article>
+        </div>
+
+
+    </section>
+    <script src="../js/productFilter.js"></script>
+
+
+</main>
+
+<footer class="footer">
+    <div class="footer__content">
+        <p class="footer__text">Кутергин Фёдор Степанович, M3301</p>
+        <p class="footer__text">© 2024 Онлайн магазин "Подболотники". Все права защищены.</p>
+        <p id="loadTime" class="footer__text"></p>
+    </div>
+    <div class="footer__link">
+        <a href="https://t.me/TheWorldNeedsMushrooms" class="footer__link-item">
+            <img src="../images/icons/telegram.svg" alt="Иконка телеграма" class="footer__icon">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
