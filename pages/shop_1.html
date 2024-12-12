@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Онлайн-магазин подболотники</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="грибы, онлайн-магазин, Подболотники, аксессуары, одежда, рецепты, мемы, сообщество,
+    грибные товары, увлечение грибами, грибные деликатесы, грибные статьи">
+    <meta name="description" content="Онлайн-магазин Подболотники, посвящённый грибам и всему, что с ними связано!
+    Откройте для себя разнообразные товары: от стильной одежды и милых аксессуаров до вкусных грибных delicacies.
+    Наслаждайтесь мемами, статьями и рецептами, создавая яркие моменты из грибного мира. ">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <script src="../js/loadTime.js" defer></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/outlines.css">
+    <script src="../js/preloader.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__logo-navigation">
+        <div class="header__logotype">
+            <a href="../index.html">
+                <img class="header__logo-img" src="../images/logotype.png" alt="Логотип компании">
+            </a>
+        </div>
+        <nav class="header__navigation">
+            <div class="header__menu-toggle" id="menu-toggle">
+                <p class="header__menu-toggle_text">Меню</p>
+                <p class="header__menu-toggle_button">></p>
+            </div> <!-- для переключения -->
+            <ul class="header__menu" id="menu">
+                <li><a class="header__menu-item" href="blog.html">Блог</a></li>
+                <li><a class="header__menu-item" href="shop.html">Магазин</a></li>
+                <li><a class="header__menu-item" href="delivery.html">Оплата и доставка</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__search-and-actions">
+        <img class="header__basket-icon" src="../images/icons/basket-fill.svg" alt="Иконка корзины">
+        <a href="#" class="header__authorization"><p>Вход</p></a>
+    </div>
+    <script src="../js/menu.js" defer></script>
+</header>
+
+<main>
+    <section class="product">
+        <div class="product_swiper swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../images/grib-2_1.png" alt="Товар из магазина 2" class="product__image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/grib-2_2.png" alt="Изображение 2" class="product__image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/grib-2_3.png" alt="Изображение 3" class="product__image">
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next product__swiper-button"></div>
+            <div class="swiper-button-prev product__swiper-button"></div>
+
+            <div class="swiper-pagination product__pagination"></div>
+        </div>
+        <div class="product_description">
+            <h1 class="product_description-title">Мужская оверсайз-футболка “Подболотники”</h1>
+
+            <div class="product__price shop__card-price">
+                <p class="product__price-now shop__card-price_now">5000 ₽</p>
+                <p class="product__price-old shop__card-price_old">8000 ₽</p>
+            </div>
+
+            <div class="product__buttons shop__card-button">
+                <a href="#" class="product__button-basket shop__card-button_basket">В корзину</a>
+            </div>
+
+
+            <h4 class="product__section-title">Описание</h4>
+            <p class="product__description-text">
+                Замечательная мужская оверсайз-футболка «Подболотники» — это идеальное сочетание комфорта и стиля.
+                Созданная с учетом современных требований к моде и удобству, эта футболка станет вашим незаменимым
+                элементом гардероба.
+            </p>
+
+            <h4 class="product__section-title">Состав</h4>
+            <p class="product__description-text">
+                - 100% хлопок <br>
+                - Не вызывающий аллергию, долговечный и легко стирается<br>
+            </p>
+
+            <h4 class="product__section-title">Уход</h4>
+            <p class="product__description-text">
+                - Рекомендуется стирка в холодной воде с подобными цветами<br>
+                - Сушить в тени или в сушильной машине на низкой температуре<br>
+                - Не использовать отбеливатели<br>
+            </p>
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/clickerSlider.js" defer></script>
+    <section class="review">
+        <h2>Отзывы</h2>
+        <!-- Существующий код товара -->
+
+        <div id="comments" class="comment"></div>
+        <script src="../js/preloader.js"></script>
+    </section>
+
+
+</main>
+
+<footer class="footer">
+    <div class="footer__content">
+        <p class="footer__text">Кутергин Фёдор Степанович, M3301</p>
+        <p class="footer__text">© 2024 Онлайн магазин "Подболотники". Все права защищены.</p>
+        <p id="loadTime" class="footer__text"></p>
+    </div>
+    <div class="footer__link">
+        <a href="https://t.me/TheWorldNeedsMushrooms" class="footer__link-item">
+            <img class="footer__icon" src="../images/icons/telegram.svg" alt="Иконка телеграма">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
